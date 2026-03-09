@@ -1,0 +1,25 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot_example"
+version = "2026.0"
+authors = [
+  { name="Luke J Edwards", email="luke.edwards@maastrichtuniversity.nl" },
+]
+description = "Programming exercise for BRAIN2121"
+readme = "README.md"
+dependencies = [
+    "matplotlib",
+    "pybullet",
+    "numpy",
+    ]
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
